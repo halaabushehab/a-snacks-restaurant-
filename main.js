@@ -1,12 +1,23 @@
 //EX1: If Else Problem domain: You will build a web page for a Snack restaurant, where the user can enter their order, display it, and check the status for each one. 
-   let array=[];
+
 //Ask the user to enter his/her name as input 
 let your_name = (prompt("Enter your name:"));
-array.push(your_name)
+
 //*Ask the user to enter his/her gender. The answer should be either (male or female) 
 
-gender();
+let your_gender = (prompt(" Please Enter your gender:"));
 
+if(your_gender === "female" ){
+    alert(` welcome  Ms.${your_name}`)
+}
+else if(your_gender === "male" ) {
+    alert(` welcome  Mr.${your_name}`)
+}
+ else{
+    alert(` welcome  ${your_name}`)
+
+
+ }
 
 
 //*Ask the user if he/she wants to order a shawarma, zinger, or burger. 
@@ -20,39 +31,19 @@ let your_order = (prompt("hi" +your_name+" , Would you like to order a shawarma,
 
  }
  alert(` Your order for  ${your_order} is being prepared`)
- array.push(your_order)
+
+console.log(` ${userName} y ordered ${orderName}.`);
 
 
-//EX3:
-console.log(array)
 
-for (let i = 0; i < array.length; i++) {
-   console.log(array[i]);
-}
 
-function gender() {
-    let gender = prompt("Please Enter your gender:"); 
-    if(your_gender === "female" ){
-        alert(` welcome  Ms.${your_name}`)
-        array.push(your_gender)
-    
-    }
-    else if(your_gender === "male" ) {
-        alert(` welcome  Mr.${your_name}`)
-        array.push(your_gender)
-    
-    }
-     else{
-        alert(` welcome  ${your_name}`)
-        array.push(your_gender)
-    
-    
-     }
-    
-}
+
+
+
+
 
 //Q2: If you have a “Number” variable,  Your task is to print:
-let YourNumber = Number(prompt("Enter your number:"));
+let YourNumber = prompt("Enter your number:");
 
 switch (YourNumber) {
     case 1:
@@ -79,15 +70,15 @@ switch (YourNumber) {
         case 8:
             num = "EIGHT";
             break;
-              case 9:
-                 num = "NINE";
-                 break;
+
+            case 9:
+                num = "NINE";
+                break;
 
     default:
         num = "PLEASE TRY AGAIN ";
 }
 
 alert("  Number variable: " + num);
-
 
 // console.log(` ${userName} y ordered ${orderName}.`);
