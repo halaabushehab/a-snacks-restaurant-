@@ -5,7 +5,7 @@ let your_name = (prompt("Enter your name:"));
 array.push(your_name)
 //*Ask the user to enter his/her gender. The answer should be either (male or female) 
 
-gender()
+gender();
 
 
 
