@@ -1,5 +1,5 @@
 //EX1: If Else Problem domain: You will build a web page for a Snack restaurant, where the user can enter their order, display it, and check the status for each one. 
- 
+
 //Ask the user to enter his/her name as input 
 let your_name = (prompt("Enter your name:"));
 
@@ -81,4 +81,4 @@ switch (YourNumber) {
 
 alert("  Number variable: " + num);
 
-
+// console.log(` ${userName} y ordered ${orderName}.`);

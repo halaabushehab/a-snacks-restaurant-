@@ -1,4 +1,4 @@
-// One of the questions in the previous task was to ask the user about his/her gender and if they didn't write the correct answer nothing would happen, today you have to keep asking the user to enter their gender until you get the correct answer (while loop).
+ // One of the questions in the previous task was to ask the user about his/her gender and if they didn't write the correct answer nothing would happen, today you have to keep asking the user to enter their gender until you get the correct answer (while loop).
 
 let your_gender = prompt("Please enter your gender :");
 
@@ -43,3 +43,9 @@ for(let i=0 ; i<=N ; i++){
     sum=sum+i
 }
  alert(sum)
+
+
+
+ document.getElementById("show").onclick = function () {
+  console.log("show");
+};
